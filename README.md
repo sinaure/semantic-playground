@@ -19,4 +19,7 @@ add spatial plugin to import OSM
 add apoc plugin to handle json-ld format
 add graphql layer to compare across data models
 
+https://github.com/neo4j-contrib/neo4j-apoc-procedures
+https://github.com/neo4j-contrib/spatial
+
 
