@@ -22,6 +22,7 @@ stop: ## Stop a running container
 		
 exec:
 	#docker exec -i neo4jscript-container sh -c "python /scripts/initDiatomic.py"
+	#docker exec -i neo4jscript-container sh -c "python /scripts/initOsm.py"
 	docker exec -i neo4jscript-container sh -c "python /scripts/insertJsonLd.py file:///import/data/beehive.jsonld"
 	docker exec -i neo4jscript-container sh -c "python /scripts/insertJsonLd.py file:///import/data/beekeeper.jsonld"
 	docker exec -i neo4jscript-container sh -c "python /scripts/insertJsonLd.py file:///import/data/door.jsonld"

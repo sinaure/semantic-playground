@@ -1,25 +1,16 @@
-from neo4jrestclient.client import GraphDatabase
-from neo4jrestclient import client
+from py2neo import Graph
+from py2neo import Node
+from py2neo import Relationship
 
- 
-db = GraphDatabase("http://neo4jdatabase-container:7474",username="neo4j",password="test")
- 
+graph = Graph("bolt://neo4jdatabase-container:7687", auth=("neo4j", "test"))
 
-i="""CREATE INDEX ON :Resource(uri)"""
-db.query(i)
+results = graph.run(
+    """CALL semantics.importRDF("file:///import/ontologies/OSM_Semantic_Network-2012-09-03.skos.rdf","RDF/XML")"""
+).data()
 
-q=("""MATCH (n)  DETACH DELETE n""")
-results = db.query(q)
-print(results[0])
-
-#### this fail because http://spatial.ucd.ie/lod/osn/term/k:source/v:tiger_import Not found
-i="""CALL semantics.importRDF("file:///import/ontologies/OSM_Semantic_Network-2012-09-03.skos.rdf","RDF/XML")"""
-db.query(i)
-q=("""MATCH (n) RETURN *""")
-results = db.query(q)
-print(results[0])
 print("****************")
-q=("""MATCH (n)-[r]->(m) RETURN n, r, m;""")
-results = db.query(q)
-print(results[0])
+results = graph.run(
+    "MATCH (n)-[r]->(m) RETURN n, r, m;"
+).data()
+print(results)
 
