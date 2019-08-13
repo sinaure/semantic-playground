@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="35203e0e-c0a6-40e2-8fe9-90aec0e2fd68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/beehive.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/beekeeper.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/door.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/observation_door.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/observation_sensor.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/sensor.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/data/smartdoor.jsonld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/import/ontologies/OSM_Semantic_Network-2012-09-03.skos.rdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/initExample.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/initOsm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.counts.db.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.labelscanstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.labeltokenstore.db" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/insertJsonLd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.labeltokenstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.labeltokenstore.db.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.labeltokenstore.db.names.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.nodestore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.nodestore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.nodestore.db.labels" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.nodestore.db.labels.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.arrays" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.arrays.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.index.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.index.keys" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.index.keys.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.strings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.propertystore.db.strings.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshipgroupstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshipgroupstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshipstore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshipstore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshiptypestore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshiptypestore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshiptypestore.db.names" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.relationshiptypestore.db.names.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.schemastore.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.schemastore.db.id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/graph.db/neostore.transaction.db.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/databases/store_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/import/osm_semantic_network.skos.rdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/initDiatomic.py" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/insertJsonLd.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/py2neoexample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="60" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/import/data/beehive.jsonld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import/data/observation_door.jsonld">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import/data/beekeeper.jsonld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import/ontologies/ngsild.ttl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5993" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/import/ontologies/diatomic.ttl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/initExample.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/initDiatomic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/init.py" />
+        <option value="$PROJECT_DIR$/scripts/initExample.py" />
+        <option value="$PROJECT_DIR$/scripts/initOsm.py" />
+        <option value="$PROJECT_DIR$/scripts/insertJsonLd.py" />
+        <option value="$PROJECT_DIR$/scripts/initDiatomic.py" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/import/data/beehive.jsonld" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1732" />
+    <option name="y" value="7" />
+    <option name="width" value="1558" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="import" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="import" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="import" type="462c0819:PsiDirectoryNode" />
+              <item name="ontologies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../neosemantics" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\asinatra\Desktop\ECLIPSE_WORKSPACE\algorithms\import\ontologies" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asinatra\Desktop\ECLIPSE_WORKSPACE\algorithms\import\ontologies" />
+      <recent name="C:\Users\asinatra\Desktop\ECLIPSE_WORKSPACE\algorithms\scripts" />
+      <recent name="C:\Users\asinatra\Desktop\ECLIPSE_WORKSPACE\algorithms\import" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35203e0e-c0a6-40e2-8fe9-90aec0e2fd68" name="Default Changelist" comment="" />
+      <created>1565614452863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565614452863</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1732" y="7" width="1558" height="735" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31308413" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/import/data/door.jsonld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/ontologies/sosa.rdf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/initOsm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/example.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/ontologies/ngsild.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5993" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/py2neoexample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="60" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/ontologies/diatomic.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/insertJsonLd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/initDiatomic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/data/observation_door.jsonld">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/initExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/data/beekeeper.jsonld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/data/beehive.jsonld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
